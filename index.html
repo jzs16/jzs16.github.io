@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JZS-16</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="inner">
+                <h1>Online-based platform to connect blood searchers with donors, JZS-16</h1>
+                <a class="btnPrimary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdI5ECxWj_TLN88MH4HCWmvy-QrOkxFNMlP5Hpb16IQkdgEqA/viewform?fbclid=IwAR3jPLpHj6ELBVzonSsu1wjC5OZZtughO-i2Gr3NeNO-ubCIuS-PxvRa_JE">Join as a blood donor</a>
+            </div>
+        </div>
+    </div>
+    <div id="btnWrapper">
+        <div class="container">
+            <div class="inner">
+                Select Blood Group: &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="filterButton" onclick="FilterDonor('A+')">A+</button>
+                <button class="filterButton" onclick="FilterDonor('A-')">A-</button>
+                <button class="filterButton" onclick="FilterDonor('AB+')">AB+</button>
+                <button class="filterButton" onclick="FilterDonor('AB-')">AB-</button>
+                <button class="filterButton" onclick="FilterDonor('B+')">B+</button>
+                <button class="filterButton" onclick="FilterDonor('B-')">B-</button>
+                <button class="filterButton" onclick="FilterDonor('O+')">O+</button>
+                <button class="filterButton" onclick="FilterDonor('O-')">O-</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainContent">
+        <div class="container">
+            <div class="mainContentWrapper" id="mainContentWrapper">
+                       
+            </div>
+        </div>
+    </div>
+    <script src="./resources/js/data.js"></script>
+    <script src="./resources/js/main.js"></script>
+</body>
+
+</html>
